@@ -1,9 +1,15 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Shut up"/>
+<template style ="margin:0">
+  <div>
+    <div id="app">
+      <img alt="Vue logo" src="./assets/1614290915909.jpg"  height="650px" width="400px" >
+      <HelloWorld msg="Fazil Kagdi"/>
+    </div>
   </div>
 </template>
+
+
+  
+
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
@@ -23,6 +29,17 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: #9ba0a5;
+  padding: 40px;
+  
+}
+
+</style>
+
+<style>
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 </style>
