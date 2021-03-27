@@ -1,9 +1,14 @@
 <template>
+  <div>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>{{msg}}</h1>
     <h2>Knox College class of 2023. He/him/his</h2>
     <h3>Computer Science Major</h3>
-    <pdf src="./assets/Kagdi, Fazil INFORMAL.pdf"></pdf>
+    
+  </div>
+  <div id="pdfv">
+    <pdf src="./static/test.pdf"></pdf>
+  </div>
   </div>
 </template>
 
@@ -42,4 +47,9 @@ li {
 .hello {
   padding: 0px;
 }
+.pdfv{
+  background-color: paleturquoise;
+  
+  }
+
 </style>
